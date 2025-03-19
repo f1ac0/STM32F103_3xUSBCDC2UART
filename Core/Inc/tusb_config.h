@@ -84,7 +84,7 @@
 //--------------------------------------------------------------------
 
 #ifndef CFG_TUD_ENDPOINT0_SIZE
-#define CFG_TUD_ENDPOINT0_SIZE    64
+#define CFG_TUD_ENDPOINT0_SIZE    16 //64 // Need to reduce it for all EP buffers to fit inside Packet Memory Address of 512 bytes
 #endif
 
 //------------- CLASS -------------//
